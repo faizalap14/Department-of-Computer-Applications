@@ -1,0 +1,100 @@
+
+
+<!doctype html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact</title>
+    <link rel="shortcut icon" type="image/jpg" href="../assets/social media/news2.png"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+    </style>
+      <!-- custom css file link  -->
+    <link rel="stylesheet" href="../style/contact.css">
+    </head>
+    <body>
+        <section>
+            <div class="container">
+                <div class="contactInfo"> 
+                    <div>
+                        <h2>Contact </h2>
+                        <h4 style="color: white;">Dr.P.Rizwan Ahmed  &</h4>
+                        <h4 style="color: white;">Vice-Principal(Academic)</h4>
+                        <h5 style="color: white;">Head of the  Department  </h5>
+                        <h5 style="color: white;">Department of Computer Application  </h5>
+                       
+                        <ul class="info">
+                            <li>
+                                <span><img src="../assets/social media/location.png"></span>
+                                <span>ReddyThoppu Road<br>
+                                    Ambur,Tirupattur District  <br>
+                                    635802</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span><img src="../assets/social media/mail.png"></span>
+                                <!-- <span>mucollege@gmail.com</span> -->
+                                <span><a href = "mailto: deptofbcamuc@gmail.com">depofbcamuc@gmail.com</a></span>
+                            </li>
+                            <li>
+                                <span><img src="../assets/social media/call.png"></span>
+                                <span>04174-242644</span>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <ul class="sci">
+                        <li><a href="https://www.facebook.com/mucollege/"><img src="../assets/social media/1.png"></a></li>
+                        <li><a href="https://www.instagram.com/mucollege_/?hl=el"><img src="../assets/social media/3.png"></a></li>
+                        <li><a href="https://twitter.com/mucollege"><img src="../assets/social media/2.png"></a></li>
+                        <li><a href="https://www.linkedin.com/in/mucollege-2b9631196/"><img src="../assets/social media/5.png"></a></li>
+                        <li><a href="https://maps.app.goo.gl/EHKXLD2a449KUsgZ7"><img src="../assets/social media/location.png" width="25px" height="25px"></a></li>
+                        
+                    </ul>
+                </div>
+                <form action="../main/contact_db.php" method="POST">
+                    <div class="contactForm">
+                        <h2>Send a Message</h2>
+                        <div class="formBox">
+                        <div class="inputBox w50">
+                            <input type="text" name="fname" required>
+                            <span>First Name</span>
+                        </div>
+                        <div class="inputBox w50">
+                            <input type="text" name="lname" required>
+                            <span>Last Name</span>
+                        </div>
+                        <div class="inputBox w50">
+                            <input type="email" name="email" required>
+                            <span>Email Address</span>
+                        </div>
+                        <div class="inputBox w50">
+                            <input type="text" name="mno" required>
+                            <span>Mobile Number</span>
+                        </div>
+                        <div class="inputBox w100">
+                            <textarea name="msg" required></textarea>
+                            <span>Write your message here...</span>
+                        </div>
+                        <div class="inputBox w100">
+                            <input type="submit" value="Send">
+                        </div>
+                        
+                    </div>
+                </div>
+                </form>
+                         
+                    
+                    
+             
+        </section>
+    </body>
+</html>

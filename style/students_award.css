@@ -1,0 +1,27 @@
+:root{
+    --first:#74f9fe;
+    --main-color:#2980b9;
+    --bg-color-1:#eee;
+    --bg-color-2:#fff;
+    --text-color-1:#444;
+    --text-color-2:#666;
+    
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+   
+    padding: 20px;
+    background: #f1f1f1;
+  }
+  
+  .stu{
+    font-size: 20px;
+    text-align: justify;
+    font-family: Book Antiqua;
+   
+  }
+  

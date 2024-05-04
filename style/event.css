@@ -1,0 +1,31 @@
+:root{
+    --first:#74f9fe;
+    --main-color:#2980b9;
+    --bg-color-1:#eee;
+    --bg-color-2:#fff;
+    --text-color-1:#444;
+    --text-color-2:#666;
+    
+  
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Book Antiqua;
+    padding: 20px;
+    background: #f1f1f1;
+  }
+  
+  .event{
+    font-size: 20px;
+    text-align: justify;
+  }
+  
+  h3{
+    color: cornflowerblue;
+    font-size: 20px;
+  }
+  

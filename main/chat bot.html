@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Bot</title>
+</head>
+<body>
+    <!--footer section ends -->
+
+
+<div class="chat-button"> 
+ 
+    <div class="glass-container glass">
+   
+      <h2 style="font-size: 32px;"> Deku  <spam style="color: rgb(238, 255, 2)"> Bot</span> </h2>
+      <h3 style="font-size: 22px;"> Department  Question </h3>
+      <h3 style="font-size: 22px;"> Ask Your  Question </h3>
+   
+    <div class="input">
+    <p id="chatLog"></p>
+    
+      <input type="text" id="userBox" onkeydown="if(event.keyCode == 13) { talk()}" placeholder="Type your Question" 
+      list="my-chatbot" id="chatbot" name="chatbot" />
+   
+   <datalist id="my-chatbot">
+       <option value="Who are you">
+       <option value="hi">
+       <option value="hello">
+       <option value="How are you">
+       <option value="BCA first year Fees">
+       <option value="BCA second year Fees">
+       <option value="BCA third year Fees">
+       <option value="MCA first year Fees">
+       <option value="MCA second year Fees">
+       <option value="BBA first year Fees">
+       <option value="BBA second year Fees">
+       <option value="BBA third year Fees">
+   </datalist>
+    
+     
+   </div>
+         
+       <a href="../index.html" style="color: blue;" >go back</a>
+   </div>
+  
+  <script src="//code.tidio.co/sdappuxo1tpwzporvf9giubyedri7c7x.js" async></script>
+  
+  <Script>
+    function talk(){  
+     var know = {  
+      "Who are you" : "deku , for your help",  
+      "hi" : "hi what can i help you",  
+      "hello" : "hello what can i help you",  
+      "How are you" : "Good :)",  
+      "BCA first year Fees" : "12,998/- & no extra charges.",  
+      "BCA second year Fees" : " 9,980/- only",  
+      "BCA third year Fee" : " 11,810/- only",  
+      "MCA first year Fees" : "68,185/- & no extra charges",  
+      "MCA second year Fees" : "68,000/- only",  
+      "BBA first year Fees" : "30,985/- & no extra charges",  
+      "BCA second year Fees" : "28,000/- only",  
+      "BCA third year Fees" : "11,810/- only",  
+      "ok" : "Thank You So Much ",  
+      "Bye" : "Okay! Will meet soon.."  
+     };  
+     var user = document.getElementById('userBox').value;  
+      document.getElementById('chatLog').innerHTML = user + "<br>";  
+     if (user in know) {  
+      document.getElementById('chatLog').innerHTML = know[user] + "<br>";  
+     }
+     else{  
+      document.getElementById('chatLog').innerHTML = "Sorry,I didn't understand <br>";  
+     }  
+    }
+  </Script>
+
+  <style>
+    .chat-button{
+      text-align: center;
+      padding-top: 10%;
+        
+    }
+    body{
+      background: url(../assets/bg3.jpg) no-repeat  ;
+    background-size: cover;
+
+    }
+    
+     body a {
+      font-size: 1.5rem; text-align: center;  text-shadow: black 0px 0px 2px;
+     }
+     
+
+
+.glass h2 { font-size: 2.5rem; text-align: center;  text-shadow: black 0px 0px 2px; }
+
+.input { padding-bottom: 35px; }
+
+.input input { 
+    padding: 0 25px;
+    width: 40%; height: 50px;
+    border: none;
+    box-shadow: 0 0 0 3px rgba(201, 216, 254, 1);
+    outline: none;
+    font-size: 2.1rem;
+    border-radius: 20px;
+    overflow: hidden; 
+}
+
+.input input:hover{border: 1.5px solid rgba(46, 105, 255, 0.9); box-shadow: 0 0 0 3px rgba(201, 216, 254, 0.4); }
+
+.glass p { font-size: 2.3rem; margin: 30px 10px 15px; text-align: center; color: rgb(0, 0, 0); text-shadow: white 0px 0px 2px; }
+
+  </style>
+
+
+   
+</body>
+</html>

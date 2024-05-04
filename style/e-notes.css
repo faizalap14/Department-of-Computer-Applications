@@ -1,0 +1,88 @@
+:root{
+    --first:#41abae;
+    --main-color:#2980b9;
+    --bg-color-1:#eee;
+    --bg-color-2:#fff;
+    --text-color-1:#444;
+    --text-color-2:#666;
+    
+  
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .library {
+    font-family: Book Antiqua;
+    padding: 1px;
+    background: #f1f1f1;
+  }
+  
+
+   
+
+.library .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+}
+
+.library .box-container .box{
+    flex:0 0 10rem;
+    box-shadow: 0 0rem 1rem rgba(0,0,0,.1);
+    border-radius: 1rem;
+    border:.1rem solid rgba(0,0,0,.1);
+    position: relative;    
+}
+
+
+
+.library .box-container .box .image{
+    position: relative;
+    text-align: center;
+    padding-top: 2rem;
+    overflow:hidden;
+}
+
+.library .box-container .box .image img{
+    height:10rem;
+}
+
+.library .box-container .box:hover .image img{
+    transform: scale(1.1);
+}
+
+.library .box-container .box .image .icons{
+    position: absolute;
+    bottom:-7rem; left:0; right:0;
+    display: flex;
+}
+
+.library .box-container .box:hover .image .icons{
+    bottom:0;
+}
+
+.library .box-container .box .image .icons a{
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 1rem;
+    width:100%;
+    background:var(--first);
+    color:#fff;
+}
+
+
+.library .box-container .box .image .icons a:hover{
+    background:#333;
+}
+
+.library .box-container .box .content{
+    padding:1rem;
+    text-align: center;
+}
+
+.library .box-container .box .content h3{
+    font-size: 1rem;
+    color:#333;
+}

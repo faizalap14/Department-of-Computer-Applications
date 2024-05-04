@@ -1,0 +1,83 @@
+body {
+  font-family: Book Antiqua;
+  margin: 0;
+  padding: 0;
+  }
+  
+  header {
+  background-color: #3f51b5;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  section {
+  padding: 10px;
+  }
+  
+  #home {
+  background-color: #f2f2f2;
+  text-align: center;
+  }
+  
+  #home h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  }
+  
+  #timetable {
+  background-color: #e5e5e5;
+  text-align: center;
+  }
+  
+  #timetable table {
+  border-collapse: collapse;
+  width: 60%;
+  margin: auto;
+  }
+  
+  #timetable th, td {
+  border: 3px solid black;
+  padding: 10px;
+  text-align: center;
+  }
+  #timetable  td {
+  font-size: 20px;
+  }
+  
+  #timetable th {
+  background-color: #3f51b5;
+  color: #fff;
+  font-size: 20px;
+  }
+  
+  #events {
+  background-color: #f2f2f2;
+  text-align: center;
+  }
+  
+  #events h2 {
+  margin-bottom: 20px;
+  }
+  
+  #events ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+  #events li {
+  font-size: 20px;
+  margin: 10px 0;
+  }
+  
+  #contact {
+  text-align: center;
+  }
+  
+  #contact h2 {
+  margin-bottom: 20px;
+  }
+  

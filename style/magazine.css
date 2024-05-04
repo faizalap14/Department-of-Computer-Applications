@@ -1,0 +1,52 @@
+.man{
+    font-family: Book Antiqua;
+ }
+
+h1{
+    color: #3f51b5;
+}
+#home {
+background-color: #f2f2f2;
+text-align: center;
+}
+
+#home h1 {
+font-size: 40px;
+margin-bottom: 20px;
+}
+
+#table {
+background-color: #e5e5e5;
+text-align: center;
+}
+
+#table table {
+border-collapse: collapse;
+width: 60%;
+margin: auto;
+}
+
+#table th{
+border: 2px solid black;
+padding: 8px;
+text-align: center;
+}
+#table  td {
+font-size: 20px;
+border: 2px solid black;
+}
+
+
+#table th {
+background-color: #3f51b5;
+color: #fff;
+font-size: 20px;
+}
+
+#table a{
+    font-size: 20px;
+    color: black;
+    
+    }
+
+   

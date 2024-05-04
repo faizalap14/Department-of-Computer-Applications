@@ -1,0 +1,98 @@
+:root{
+    --pink:#7d49ad;
+    --main-color:#2980b9;
+    --bg-color-1:#eee;
+    --bg-color-2:#fff;
+    --text-color-1:#444;
+    --text-color-2:#666;
+    
+  
+}
+
+
+
+
+.heading1{
+    text-align: center;
+    font-size: 4rem;
+    color:#333;
+    margin:1rem 0;
+    background:rgba(255, 51, 153,.05);
+}
+
+.heading1 span{
+    color:var(--pink);
+}
+
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background:#333;
+    color:red;
+    padding:.9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.btn:hover{
+    background:var(--pink);
+}
+
+.staff .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    gap:1rem;
+}
+
+.staff .box-container .box{
+    box-shadow: var(--box-shadow);
+    border-radius: 1rem;
+    background: var(--bg-color-2);
+    padding:3rem;
+}
+
+.staff .box-container .box .user{
+    display: flex;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.staff .box-container .box .user img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right:1rem;
+}
+
+.staff .box-container .box .user .fa-quote-right{
+    color:var(--main-color);
+    font-size: 4rem;
+    margin-left: auto;
+}
+
+.staff .box-container .box .user .info h3{
+    color:var(--text-color-1);
+    font-size: 2rem;
+    padding-bottom: .5rem;
+}
+
+.staff .box-container .box .user .info .stars i a{
+    color:var(--main-color);
+    font-size: 1.3rem;
+}
+
+
+.staff .box-container .box p{
+    color:var(--text-color-2);
+    font-size: 1.6rem;
+    line-height: 1.7;
+    padding-top: 1rem;
+}
+
+p{
+    font-size: medium;
+}
+
